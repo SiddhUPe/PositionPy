@@ -40,5 +40,5 @@ setup(
     keywords="Astronomy, Sun, Science, Calculation, Ephemeris",
     packages=find_packages(where="PositionPy"),
     python_requires=">=3.7, <4",
-    install_requires=["astroquery, Solarflare"],
+    install_requires=["astroquery", "Solarflare"],
 )
